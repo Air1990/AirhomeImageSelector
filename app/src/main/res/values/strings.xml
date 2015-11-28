@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ImageSelector</string>
+    <string name="actionbar_title_album">选择相册</string>
+    <string name="actionbar_title_thumbnail">选择相片</string>
+    <string name="actionbar_title_edit">编辑照片</string>
+    <string name="actionbar_title_preview">完成</string>
+
+    <string name="rating_title">印刷品质</string>
+    <string name="rating_des">当前品质</string>
+    <string name="edit_finish">编辑完成</string>
+
+    <string name="preview_tips">由于手机屏幕本身存在偏差，所以实物可能会与手机展示效果存在色差，敬请谅解！</string>
+    <string name="add_cart">加入购物车</string>
+</resources>

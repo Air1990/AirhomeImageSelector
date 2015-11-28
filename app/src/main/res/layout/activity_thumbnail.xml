@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.imageselector.ui.ThumbnailActivity">
+
+    <include
+        android:id="@+id/actionbar"
+        layout="@layout/item_actionbar" />
+
+    <GridView
+        android:id="@+id/thumbnail_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionbar"
+        android:clipToPadding="false"
+        android:horizontalSpacing="3dp"
+        android:numColumns="3"
+        android:padding="3dp"
+        android:verticalSpacing="3dp" />
+
+</RelativeLayout>
